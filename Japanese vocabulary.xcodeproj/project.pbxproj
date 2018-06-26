@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A893DE8220E2894E009E2422 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A893DE8020E2894E009E2422 /* CardCell.swift */; };
+		A893DE8320E2894E009E2422 /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A893DE8120E2894E009E2422 /* CardCell.xib */; };
+		A8B8F19020E2813600DD837F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B8F18F20E2813600DD837F /* AppDelegate.swift */; };
+		A8B8F19220E2813600DD837F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B8F19120E2813600DD837F /* ViewController.swift */; };
+		A8B8F19520E2813600DD837F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B8F19320E2813600DD837F /* Main.storyboard */; };
+		A8B8F19820E2813600DD837F /* Japanese_vocabulary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8B8F19620E2813600DD837F /* Japanese_vocabulary.xcdatamodeld */; };
+		A8B8F19A20E2813800DD837F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B8F19920E2813800DD837F /* Assets.xcassets */; };
+		A8B8F19D20E2813800DD837F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B8F19B20E2813800DD837F /* LaunchScreen.storyboard */; };
+		A8B8F1A520E282D000DD837F /* CardsCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B8F1A420E282D000DD837F /* CardsCollectionViewLayout.swift */; };
+		A8B8F1A720E2848700DD837F /* Vocabularies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B8F1A620E2848700DD837F /* Vocabularies.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A893DE8020E2894E009E2422 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		A893DE8120E2894E009E2422 /* CardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
+		A8B8F18C20E2813600DD837F /* Japanese vocabulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Japanese vocabulary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B8F18F20E2813600DD837F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8B8F19120E2813600DD837F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8B8F19420E2813600DD837F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8B8F19720E2813600DD837F /* Japanese_vocabulary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Japanese_vocabulary.xcdatamodel; sourceTree = "<group>"; };
+		A8B8F19920E2813800DD837F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8B8F19C20E2813800DD837F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8B8F19E20E2813800DD837F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8B8F1A420E282D000DD837F /* CardsCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsCollectionViewLayout.swift; sourceTree = "<group>"; };
+		A8B8F1A620E2848700DD837F /* Vocabularies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabularies.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8B8F18920E2813600DD837F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A893DE8420E28ECC009E2422 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8B8F19120E2813600DD837F /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A893DE8520E28ED8009E2422 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A8B8F1A420E282D000DD837F /* CardsCollectionViewLayout.swift */,
+				A893DE8020E2894E009E2422 /* CardCell.swift */,
+				A893DE8120E2894E009E2422 /* CardCell.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		A893DE8620E28EEA009E2422 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A8B8F1A620E2848700DD837F /* Vocabularies.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A8B8F18320E2813600DD837F = {
+			isa = PBXGroup;
+			children = (
+				A8B8F18E20E2813600DD837F /* Japanese vocabulary */,
+				A8B8F18D20E2813600DD837F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8B8F18D20E2813600DD837F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8B8F18C20E2813600DD837F /* Japanese vocabulary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8B8F18E20E2813600DD837F /* Japanese vocabulary */ = {
+			isa = PBXGroup;
+			children = (
+				A893DE8620E28EEA009E2422 /* Helper */,
+				A893DE8520E28ED8009E2422 /* CustomView */,
+				A893DE8420E28ECC009E2422 /* Controllers */,
+				A8B8F18F20E2813600DD837F /* AppDelegate.swift */,
+				A8B8F19320E2813600DD837F /* Main.storyboard */,
+				A8B8F19920E2813800DD837F /* Assets.xcassets */,
+				A8B8F19B20E2813800DD837F /* LaunchScreen.storyboard */,
+				A8B8F19E20E2813800DD837F /* Info.plist */,
+				A8B8F19620E2813600DD837F /* Japanese_vocabulary.xcdatamodeld */,
+			);
+			path = "Japanese vocabulary";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8B8F18B20E2813600DD837F /* Japanese vocabulary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8B8F1A120E2813800DD837F /* Build configuration list for PBXNativeTarget "Japanese vocabulary" */;
+			buildPhases = (
+				A8B8F18820E2813600DD837F /* Sources */,
+				A8B8F18920E2813600DD837F /* Frameworks */,
+				A8B8F18A20E2813600DD837F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Japanese vocabulary";
+			productName = "Japanese vocabulary";
+			productReference = A8B8F18C20E2813600DD837F /* Japanese vocabulary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8B8F18420E2813600DD837F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Tran Thanh Bang";
+				TargetAttributes = {
+					A8B8F18B20E2813600DD837F = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = A8B8F18720E2813600DD837F /* Build configuration list for PBXProject "Japanese vocabulary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8B8F18320E2813600DD837F;
+			productRefGroup = A8B8F18D20E2813600DD837F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8B8F18B20E2813600DD837F /* Japanese vocabulary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8B8F18A20E2813600DD837F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B8F19D20E2813800DD837F /* LaunchScreen.storyboard in Resources */,
+				A8B8F19A20E2813800DD837F /* Assets.xcassets in Resources */,
+				A8B8F19520E2813600DD837F /* Main.storyboard in Resources */,
+				A893DE8320E2894E009E2422 /* CardCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8B8F18820E2813600DD837F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B8F1A520E282D000DD837F /* CardsCollectionViewLayout.swift in Sources */,
+				A8B8F19820E2813600DD837F /* Japanese_vocabulary.xcdatamodeld in Sources */,
+				A8B8F1A720E2848700DD837F /* Vocabularies.swift in Sources */,
+				A8B8F19220E2813600DD837F /* ViewController.swift in Sources */,
+				A8B8F19020E2813600DD837F /* AppDelegate.swift in Sources */,
+				A893DE8220E2894E009E2422 /* CardCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8B8F19320E2813600DD837F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8B8F19420E2813600DD837F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8B8F19B20E2813800DD837F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8B8F19C20E2813800DD837F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8B8F19F20E2813800DD837F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8B8F1A020E2813800DD837F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8B8F1A220E2813800DD837F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GV7J7M53J;
+				INFOPLIST_FILE = "Japanese vocabulary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bang.tran.japanese.vocabulary.develop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8B8F1A320E2813800DD837F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GV7J7M53J;
+				INFOPLIST_FILE = "Japanese vocabulary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bang.tran.japanese.vocabulary.develop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8B8F18720E2813600DD837F /* Build configuration list for PBXProject "Japanese vocabulary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B8F19F20E2813800DD837F /* Debug */,
+				A8B8F1A020E2813800DD837F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8B8F1A120E2813800DD837F /* Build configuration list for PBXNativeTarget "Japanese vocabulary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B8F1A220E2813800DD837F /* Debug */,
+				A8B8F1A320E2813800DD837F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8B8F19620E2813600DD837F /* Japanese_vocabulary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A8B8F19720E2813600DD837F /* Japanese_vocabulary.xcdatamodel */,
+			);
+			currentVersion = A8B8F19720E2813600DD837F /* Japanese_vocabulary.xcdatamodel */;
+			path = Japanese_vocabulary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8B8F18420E2813600DD837F /* Project object */;
+}
